@@ -7,7 +7,7 @@ from streamlit_chat import message
 st.set_page_config(page_title="Health Universe App Builder", page_icon=":microscope:", layout="wide")
 
 st.title('Health Universe App Builder 🩺')
-st.write('This application assists with the generation of apps that can be deployed to Health Universe.')
+st.write('This application assists with the generation of apps that can be deployed to Health Universe. After chatting with the agent, when you are ready, say: "build the app!" to get the full output with code and documentation.')
 
 openai.api_key = os.environ.get('OPENAI-KEY')
 
