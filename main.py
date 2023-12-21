@@ -27,7 +27,7 @@ def get_response():
             message_placeholder.markdown(full_response + "▌")
     else:
         st.session_state["app"] = messages[-1]['content']
-        full_response = f'Thank you! You replied {st.session_state["app"]}. Ok, let\'s build it!'
+        full_response = f'Thank you! You replied {st.session_state["app"]} -  Ok, let\'s work on that! Is there anything else to know about the app?'
     message_placeholder.markdown(full_response)
     return full_response
 
